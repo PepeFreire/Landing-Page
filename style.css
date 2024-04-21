@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+  }
+
+div {
+    border: 1px solid red;
+}
+
+.main-container {
+    border: 1px solid blue;
+    margin: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    max-width: 10%;
+    min-width: 5%;
+}
+
+li {
+    padding: 10px;
+    list-style: none;
+}
+
+.title-container {
+    display: flex;
+}
+
+.title-img img {
+    max-width: 40%;
+    min-width: 20%;
+}
